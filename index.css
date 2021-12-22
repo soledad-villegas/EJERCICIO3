@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    background-image: url(./fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    background-color: #DB6ED6;
+    width: 100%;
+    height: 25vh;
+    border-radius: 30px;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+    
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin: 0 30;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    
+}
+.navegador ul li:hover{
+    background: yellow;
+ 
+}
+.logo-pag{
+    height: 150px;
+    margin: 20;
+}
+
+.contenedor-slogan{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+    
+.slogan-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+
+}
+.titulo-parrafo{
+    
+    font-weight: 600;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 4;
+    margin: 20;
+    padding: 30;
+  
+}
+.parrafo-info{
+    font-size: 30px;
+    letter-spacing: 3;
+    padding: 10;
+    width: 100%;
+}
+.contenedor-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.perro-helado{
+    width: 100%;
+    height: 45.2vh;
+    border-style: dotted; 
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #DB6ED6;
+    
+}
+.botones{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+  
+}
+button{
+    cursor: pointer;
+    font-family: 'Acme', sans-serif;
+    background-color: darkslateblue;
+    font-weight: 500;
+    color: floralwhite;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+.contenedor-beneficios{
+   width: 100%;
+   height: 1000px;
+   display: flex;
+   display: block;
+   
+  
+}
+.beneficios{
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+   
+
+}
+h2{
+    color: indigo;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    padding: 10;
+    margin: 10;
+
+}
+
